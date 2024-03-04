@@ -30,6 +30,9 @@
 *{
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  margin: 0;
+
 }
 
 body{
@@ -38,5 +41,18 @@ body{
 
 .navbar-nav .nav-link.active{
   color: #6610f2
+}
+
+.navbar-toggler:focus{
+  box-shadow: none !important
+}
+
+.efeito-vidro {
+  background: rgba (130, 208, 246, 0.34)
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.1 );
+  backdrop-filter: blur( 2px );
+  -webkit-backdrop-filter: blur( 13.5px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 

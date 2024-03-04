@@ -1,11 +1,17 @@
-<nav class="navbar navbar-expand-lg navbar-light mb-5">
+<nav style="background-color: #fff;" class="navbar navbar-expand-lg sticky-top navbar-light bg-gradient py-3">
   <div class="container d-flex justify-content-between">
-    <a class="navbar-brand" href="#"><img src="../../../assets/img/logo.png" alt="logo etna vidraçaria"></a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
+    <a class="navbar-brand" [routerLink]="['/pagina-inicial']"><img class="img-fluid" src="../../../assets/img/logo.png"
+        alt="logotipo etna vidraçaria"></a>
+    <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <i class="bi bi-list" style="font-size: 3rem;"></i>
     </button>
-    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-      <ul class="navbar-nav  ">
+    <div class="offcanvas offcanvas-end w-50 border-primary border-5 d-flex justify-content-end" id="navbarNav">
+      <div class="offcanvas-header">
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body justify-content-end">
+        <ul class="navbar-nav">
         <li class="nav-item">
           <a class="nav-link link-primary fw-medium" aria-current="page" [routerLink]="['/pagina-inicial']" routerLinkActive="active" >Pagina inicial</a>
         </li>
@@ -19,6 +25,7 @@
           <a class="nav-link  link-primary fw-medium" [routerLink]="['/contato']" routerLinkActive="active">Contato</a>
         </li>
       </ul>
+    </div>
     </div>
   </div>
 </nav>
