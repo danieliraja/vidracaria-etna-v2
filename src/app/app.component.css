@@ -1,0 +1,26 @@
+.whatsapp-sticker{
+  display: flex;
+  background-color: #2bb13e;
+  justify-content: center;
+  align-items: center;
+  width: 64px;
+  height: 64px;
+  position: fixed;
+  bottom: 12px;
+  right: 12px;
+  border-radius: 50%
+}
+
+.whatsapp-sticker a{
+  color: #f6f6f6;
+  font-size: 2.2rem;
+}
+
+
+.whatsapp-sticker:hover{
+  transition: background-color 2s ease-in-out;
+  background-color: #0ba00a
+}
+
+
+
