@@ -27,4 +27,8 @@ export const routes: Routes = [
     path: 'contato',
     component: ContatoComponent,
   },
+  {
+    path: '**',
+    component: HomeComponent,
+  },
 ];
