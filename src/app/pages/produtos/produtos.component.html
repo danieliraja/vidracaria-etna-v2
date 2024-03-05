@@ -1,1 +1,7 @@
-<p>produtos works!</p>
+<ul class="list-group list-group-flush">
+  @for (item of $dataList | async; track $index) {
+  <li class="list-group-item">
+    <a class="link-primary">{{item.name}}</a>
+  </li>
+  }
+</ul>
