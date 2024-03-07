@@ -3,3 +3,8 @@
   height: 4rem;
   border-radius: 0.75rem;
 }
+
+.bg-custom {
+  background-image: url("../../../assets/img/misc/karen-uppal-TLjNPAz6d4g-unsplash.jpg");
+  background-size: cover;
+}
