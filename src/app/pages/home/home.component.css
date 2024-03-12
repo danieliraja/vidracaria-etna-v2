@@ -5,6 +5,20 @@
 }
 
 .bg-custom {
-  background-image: url("../../../assets/img/misc/karen-uppal-TLjNPAz6d4g-unsplash.jpg");
+  background-image: url("../../../assets/img/misc/bela-vista-de-um-lago-azul-capturada-do-interior-de-uma-villa.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+
+.background-blend-custom {
+  background-color: #002a66;
+  background-blend-mode: overlay;
   background-size: cover;
 }
