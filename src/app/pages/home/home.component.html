@@ -1,7 +1,7 @@
 <main>
   <div class="bg-custom text-secondary px-4 py-5 text-center">
     <div class="py-5">
-      <div class="glass-effect p-5 w-25 mx-auto text-start">
+      <div class="glass-effect p-5 w-50 mx-auto text-start">
         <h1 class="display-4 fw-bold text-start" style="color: #fefefe; text-shadow:  1px 2px #05a4ea, 1px 3px #9cd9eb">
           Mais que
           vidros, soluções completas para sua
@@ -137,9 +137,9 @@
   <div class="container px-4 py-5">
     <h2 class="pb-2 border-bottom">O que nossos clientes dizem</h2>
 
-    <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+    <div class="row g-4 py-5 row-cols-1 row-cols-lg-3 row-cols-md-3">
       @for (item of reviews; track $index) {
-      <div class="col-md-3 mb-4 mb-md-0 d-grid">
+      <div class="col-sm-12 col-lg-3 mb-4 mb-md-0 d-grid">
         <div class="card p-4 border-0" style="background-color: #f3f2f2; ">
           <div class="card-body py-4 mt-2 text-center">
             <div class="d-flex justify-content-center mb-4">
@@ -162,5 +162,20 @@
       }
     </div>
   </div>
+
+  <div style="background-color: #f3f2f2;">
+    <div class="container px-4 py-3" id="custom-cards">
+      <div class="row g-4 py-5">
+        <div class="d-flex align-items-center justify-content-center marcas">
+          <img src="assets/img/marcas/new-temper.png" style="height: min-content;" alt="logo empresa new temper">
+          <img src="assets/img/marcas/al.png" style="height: min-content;" alt="logo empresa Al">
+          <img src="assets/img/marcas/makit.png" style="height: min-content; background-blend-mode: overlay;"
+            alt="logo empresa Makit">
+        </div>
+      </div>
+
+    </div>
+  </div>
+
 
 </main>

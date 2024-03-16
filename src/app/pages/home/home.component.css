@@ -22,3 +22,14 @@
   background-blend-mode: overlay;
   background-size: cover;
 }
+
+.marcas img {
+  opacity: 0.5;
+  cursor: pointer;
+  transition: all 0.9s ease-out;
+}
+
+.marcas img:hover {
+  opacity: 1;
+  transition: all 0.9s ease-out;
+}
